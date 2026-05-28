@@ -1,0 +1,110 @@
+{
+  "conference-demo": [
+    {
+      "id": "starter-conference-1",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Can you give me a crisp status update for the conference demo?"
+        }
+      ]
+    },
+    {
+      "id": "starter-conference-2",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Here’s the project status I’d send:\n\n**Conference Demo — status**\n- **Goal:** Show how fast we can build a Teams Agent using CLI scaffolding and Skills, then turn it into a scoped teammate.\n- **Timeline:** Rehearsal is Friday; final demo assets due next Tuesday.\n- **Current focus:** Keep the CLI path tight, validate Teams group chat permissions, and make the teammate story land clearly.\n\nThe main risk is muddled context when one generic agent is reused everywhere — which sets up the teammate demo nicely."
+        }
+      ]
+    },
+    {
+      "id": "starter-conference-3",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I am done planning the demo. Need to build slide deck, execute, and record"
+        }
+      ]
+    },
+    {
+      "id": "starter-conference-4",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Good checkpoint. The project has moved from planning into production.\n\n**Conference Demo — next phase**\n\n1. **Build the slide deck** — keep the story focused on existing web agent → Teams integration → scoped teammate.\n2. **Execute the demo path** — run through the CLI setup, Teams integration, group chat/RSC moment, and teammate creation.\n3. **Record the final take** — use the seeded project state so the demo starts clean and repeatable.\n\nThe main thing to protect now is flow: each step should make the next one feel inevitable."
+        }
+      ]
+    }
+  ],
+  "mobile-redesign": [
+    {
+      "id": "starter-mobile-1",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "What should be the focus before design freeze?"
+        }
+      ]
+    },
+    {
+      "id": "starter-mobile-2",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "For **Mobile Redesign**, the focus before design freeze should be:\n\n1. Schedule copy review so onboarding text does not become a last-minute blocker.\n2. Finalize the analytics event contract with engineering.\n3. Confirm whether the profile setup screen reflects feedback from the first usability test pass."
+        }
+      ]
+    }
+  ],
+  "billing-migration": [
+    {
+      "id": "starter-billing-1",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "What is blocking the billing migration dry run?"
+        }
+      ]
+    },
+    {
+      "id": "starter-billing-2",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The dry run is blocked by annual-plan reconciliation failures.\n\nSuggested next steps:\n- Isolate the annual-plan cases that fail reconciliation.\n- Confirm whether those cases require migration logic changes or one-off data cleanup.\n- Finish the customer-success escalation playbook before the customer migration window."
+        }
+      ]
+    }
+  ],
+  "general": [
+    {
+      "id": "starter-general-1",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "What are the biggest risks across all projects right now?"
+        }
+      ]
+    },
+    {
+      "id": "starter-general-2",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Across the portfolio, the biggest risks are:\n\n1. **Conference Demo:** Teams permissions and demo timing could still create rehearsal risk.\n2. **Mobile Redesign:** Copy review and analytics wiring could slip past design freeze.\n3. **Billing Migration:** Annual-plan reconciliation is blocking the migration dry run.\n\nIf I had to pick one thing to inspect first, I’d look at Billing Migration because it has the clearest launch blocker."
+        }
+      ]
+    }
+  ]
+}

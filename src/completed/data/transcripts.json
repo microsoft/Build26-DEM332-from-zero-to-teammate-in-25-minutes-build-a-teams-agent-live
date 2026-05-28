@@ -1,0 +1,198 @@
+{
+  "conference-demo": [
+    {
+      "id": "starter-conference-1",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Can you give me a crisp status update for the conference demo?"
+        }
+      ]
+    },
+    {
+      "id": "starter-conference-2",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Here’s the project status I’d send:\n\n**Conference Demo — status**\n- **Goal:** Show how fast we can build a Teams Agent using CLI scaffolding and Skills, then turn it into a scoped teammate.\n- **Timeline:** Rehearsal is Friday; final demo assets due next Tuesday.\n- **Current focus:** Keep the CLI path tight, validate Teams group chat permissions, and make the teammate story land clearly.\n\nThe main risk is muddled context when one generic agent is reused everywhere — which sets up the teammate demo nicely."
+        }
+      ]
+    },
+    {
+      "id": "starter-conference-3",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "I am done planning the demo. Need to build slide deck, execute, and record"
+        }
+      ]
+    },
+    {
+      "id": "starter-conference-4",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Good checkpoint. The project has moved from planning into production.\n\n**Conference Demo — next phase**\n\n1. **Build the slide deck** — keep the story focused on existing web agent → Teams integration → scoped teammate.\n2. **Execute the demo path** — run through the CLI setup, Teams integration, group chat/RSC moment, and teammate creation.\n3. **Record the final take** — use the seeded project state so the demo starts clean and repeatable.\n\nThe main thing to protect now is flow: each step should make the next one feel inevitable."
+        }
+      ]
+    }
+  ],
+  "mobile-redesign": [
+    {
+      "id": "starter-mobile-1",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "What should be the focus before design freeze?"
+        }
+      ]
+    },
+    {
+      "id": "starter-mobile-2",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "For **Mobile Redesign**, the focus before design freeze should be:\n\n1. Schedule copy review so onboarding text does not become a last-minute blocker.\n2. Finalize the analytics event contract with engineering.\n3. Confirm whether the profile setup screen reflects feedback from the first usability test pass."
+        }
+      ]
+    }
+  ],
+  "billing-migration": [
+    {
+      "id": "starter-billing-1",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "What is blocking the billing migration dry run?"
+        }
+      ]
+    },
+    {
+      "id": "starter-billing-2",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The dry run is blocked by annual-plan reconciliation failures.\n\nSuggested next steps:\n- Isolate the annual-plan cases that fail reconciliation.\n- Confirm whether those cases require migration logic changes or one-off data cleanup.\n- Finish the customer-success escalation playbook before the customer migration window."
+        }
+      ]
+    }
+  ],
+  "general": [
+    {
+      "id": "starter-general-1",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "What are the biggest risks across all projects right now?"
+        }
+      ]
+    },
+    {
+      "id": "starter-general-2",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Across the portfolio, the biggest risks are:\n\n1. **Conference Demo:** Teams permissions and demo timing could still create rehearsal risk.\n2. **Mobile Redesign:** Copy review and analytics wiring could slip past design freeze.\n3. **Billing Migration:** Annual-plan reconciliation is blocking the migration dry run.\n\nIf I had to pick one thing to inspect first, I’d look at Billing Migration because it has the clearest launch blocker."
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "type": "text",
+          "text": "Summarize the status of all my projects"
+        }
+      ],
+      "id": "0NMdMJI47ZO3txFP",
+      "role": "user"
+    },
+    {
+      "id": "5GgL3EknCFJ1g2Td",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "step-start"
+        },
+        {
+          "type": "text",
+          "text": "Here’s a concise status summary across all your projects:\n\n**Conference Demo**\n- Planning complete.\n- Next steps: build slide deck, execute demo run-through, record final demo.\n- Key focus: Keep CLI demo under 5 minutes, validate Teams group chat permissions, and deliver a clear teammate blueprint story.\n- Risks: Demo timing, credentials validity, and group chat context muddling.\n\n**Mobile Redesign**\n- UX usability test pass done.\n- Engineering implementing profile setup screen.\n- Analytics events defined but not fully wired.\n- Immediate focus: Schedule copy review and finalize analytics event contract before design freeze this Thursday.\n- Risks: Copy review scheduling, analytics implementation slipping.\n\n**Billing Migration**\n- Data export complete.\n- Reconciliation scripts failing on some annual plans, blocking dry run scheduled for tomorrow.\n- Customer success escalation playbook still needed.\n- Critical next steps: Fix annual plan reconciliation issues and prepare for migration window in two weeks.\n- Risks: Annual plan edge cases, unrehearsed rollback steps, unconfirmed support staffing.\n\nLet me know if you want detailed next steps or a risk mitigation plan for any project.",
+          "state": "done"
+        }
+      ]
+    },
+    {
+      "parts": [
+        {
+          "type": "text",
+          "text": "How is the conference demo project going?"
+        }
+      ],
+      "id": "rt10Xd9M6nf4sEIM",
+      "role": "user"
+    },
+    {
+      "id": "L3dFpugdMMTDUOIO",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "step-start"
+        },
+        {
+          "type": "text",
+          "text": "Here’s the current status of the **Conference Demo** project:\n\n- Planning is complete.\n- Next phase involves building the slide deck, executing the demo path, and recording the final version.\n- Key focus areas: keeping the CLI scaffolding demo under five minutes, validating Teams group chat permissions, and delivering a clear \"before/after\" story of the teammate blueprint.\n- Biggest risks: demo environment credentials might expire, CLI flow could run long if dependencies aren’t pre-staged, and group chat context may get muddled if one generic agent is reused everywhere.\n\nYou’re now moving from planning into production, so protecting the flow and ensuring each demo step leads naturally to the next is critical.",
+          "state": "done"
+        }
+      ]
+    },
+    {
+      "id": "teams-user-1779997959606",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Can you summarize teh status of all my projects"
+        }
+      ]
+    },
+    {
+      "id": "assistant-1779997966670",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Here’s the current status summary across all your projects:\n\n**Conference Demo**\n- Planning complete.\n- Next steps: build slide deck, execute demo run-through, record final demo.\n- Focus: Keep CLI demo under 5 minutes, validate Teams group chat permissions, deliver strong teammate blueprint story.\n- Risks: Credentials expiration, long CLI flow without pre-staging, muddled group chat context.\n\n**Mobile Redesign**\n- Usability test pass done.\n- Engineering implementing profile setup.\n- Analytics events defined, wiring pending.\n- Urgent: Schedule copy review and finalize analytics event contract before design freeze Thursday.\n- Risks: Copy review not scheduled, analytics implementation may slip.\n\n**Billing Migration**\n- Data export complete.\n- Reconciliation scripts failing on certain annual plans, blocking dry run tomorrow.\n- Customer success escalation playbook incomplete.\n- Critical: Resolve annual plan reconciliation issues and prep for migration window starting in two weeks.\n- Risks: Annual plan edge cases, lack of rollback rehearsals, support staffing uncertain.\n\nLet me know if you need detailed next steps or risk mitigation for any project."
+        }
+      ]
+    },
+    {
+      "id": "teams-user-1779998119894",
+      "role": "user",
+      "parts": [
+        {
+          "type": "text",
+          "text": "<at>Project Management Agent</at> hi can you tell me how the conference demo project is going"
+        }
+      ]
+    },
+    {
+      "id": "assistant-1779998125651",
+      "role": "assistant",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Here’s the current status of the **Conference Demo** project:\n\n- Planning is complete.\n- The next steps are to build the slide deck, execute the demo path, and record the final demo version.\n- Key focuses include keeping the CLI scaffolding demo under five minutes, validating Teams group chat permissions, and delivering a compelling \"before/after\" story of turning a generic agent into a scoped teammate.\n- Main risks to watch are potential expiration of demo environment credentials, the CLI demo running long if dependencies aren’t pre-staged, and muddled group chat context if one generic agent is reused everywhere.\n\nMoving from planning into production means protecting the demo flow to ensure each step naturally leads to the next."
+        }
+      ]
+    }
+  ]
+}

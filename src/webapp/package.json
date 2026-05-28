@@ -1,0 +1,31 @@
+{
+  "name": "pm-agent-existing-agent",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "preview": "NODE_ENV=production tsx server/index.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/azure": "^3.0.65",
+    "@ai-sdk/openai": "latest",
+    "@ai-sdk/react": "latest",
+    "ai": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
