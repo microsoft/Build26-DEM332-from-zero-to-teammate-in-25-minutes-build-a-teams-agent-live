@@ -59,6 +59,7 @@ Use these as a starting point — or write your own!
 | [Demo instructions](./docs/01-convert-webapp-to-teams-agent.md) | Follow the end-to-end flow for converting the starter web app into a Teams agent |
 | [Teams Developer CLI](https://microsoft.github.io/teams-sdk/cli) | Install and use the CLI that manages Teams app setup during the demo |
 | [Teams agent skills](https://microsoft.github.io/teams-sdk/developer-tools/agent-skills) | Add Teams-specific workflows to your coding agent |
+| [Watch the session recording](https://aka.ms/build26/DEM332/youtube) | Watch the recorded Microsoft Build session. |
 
 
 ### 🌟 Microsoft Learn MCP Server
